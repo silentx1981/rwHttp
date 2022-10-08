@@ -1,3 +1,3 @@
-import './InputTest.vue'
+import InputText from './InputTest.vue'
 
 export default { InputText }
