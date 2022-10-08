@@ -1,6 +1,19 @@
-import 'vue';
+import { openBlock, createElementBlock } from 'vue';
 
-var components = { InputText };
+var script = {
+  name: 'InputText'
+};
+
+const _hoisted_1 = { type: "text" };
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (openBlock(), createElementBlock("input", _hoisted_1))
+}
+
+script.render = render;
+script.__file = "src/InputTest.vue";
+
+var components = { InputText: script };
 
 const plugin = {
 	install (Vue) {
