@@ -1,14 +1,12 @@
 import components from "./components";
 
-const plugin = {
-	install (Vue) {
+export default {
+	install:  (app, options) => {
 		for (const prop in components) {
 			if (components.hasOwnProperty(prop)) {
 				const component = components[prop]
-				Vue.component(component.name, component)
+				app.component(component.name, component)
 			}
 		}
 	}
-}
-
-export default plugin
+};

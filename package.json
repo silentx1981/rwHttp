@@ -1,6 +1,6 @@
 {
   "name": "@silentx/rwhttp",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
@@ -12,8 +12,8 @@
     "build": "rollup -c"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/silentx1981/rwHttp.git"
+    "type": "https",
+    "url": "https://github.com/silentx1981/rwHttp.git"
   },
   "keywords": [],
   "author": "",
