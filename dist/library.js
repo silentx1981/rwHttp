@@ -13,7 +13,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _hoisted_1,
     vue.createElementVNode("button", {
       onClick: _cache[0] || (_cache[0] = (...args) => (_ctx.logout && _ctx.logout(...args)))
-    })
+    }, "XYZ")
   ], 64 /* STABLE_FRAGMENT */))
 }
 
