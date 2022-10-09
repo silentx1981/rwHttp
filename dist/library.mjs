@@ -10,7 +10,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (openBlock(), createElementBlock(Fragment, null, [
     _hoisted_1,
     createElementVNode("button", {
-      onClick: _cache[0] || (_cache[0] = (...args) => (_ctx.logout && _ctx.logout(...args)))
+      onClick: _cache[0] || (_cache[0] = $event => (_ctx.logout()))
     }, "XYZ")
   ], 64 /* STABLE_FRAGMENT */))
 }
