@@ -1,4 +1,5 @@
 import components from "./components";
+import http from "./http.js";
 
 const plugin = {
 	install (Vue) {
